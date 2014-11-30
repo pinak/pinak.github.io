@@ -1,4 +1,5 @@
 pinak.github.io
 ===============
 
-My blog powered by jekyll at http://pinak.github.io
+My jekyll powered blog at http://pinak.github.io
+Theme from: https://github.com/dirkfabisch/mediator
