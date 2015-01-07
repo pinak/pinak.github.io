@@ -1,7 +1,7 @@
 ---
 layout: post
 Title: "SoK Status Report part-1"
-categoreies: kde, sok, season of code, status report
+categories: kde sok
 ---
 As mentioned in my previous post I'd be writing about my journey through SoK in
 upcoming posts, here I am with my first status report.
