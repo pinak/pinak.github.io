@@ -7,28 +7,28 @@ image: /assets/article_images/2015-01-20-SSD-Yay!/boot-time.png
 I had been thinking about a way to improve my laptops performance. Finally came to the conclusion that
 my 5400 RPM hard disk drive was bogging down my otherwise decent laptop. So I started looking around for
 a solid state drive and zeroed on to Samsung's 840 evo (250gb). Just when I was about to order I came across an
-article announcing the release of its successor the 850 evo. Now this caused a dillema, buy the tried and tested
-840 evo or wait for a while and get the latest and greatest 850 evo. Considering the price differnce was not that
+article announcing the release of its successor the 850 evo. Now this caused a dilemma, buy the tried and tested
+840 evo or wait for a while and get the latest and greatest 850 evo. Considering the price difference was not that
 big I decided to wait. Why not get the most recent one? When I finally found a listing on ebay for the 850, checked the
 sellers feedback (important thing to consider when you're ordering something this costly), placed my order as fast as I could.
 Then began the period of waiting. Check tracking number. Why the hell hasn't he shipped it yet? After it was shipped, check the freaking
 tracking number 10 times a day to see the status. Excitement can make you insanely impatient. After 3-4 days when it finally arrived,
 ripped the packing open, grabbed my screw driver kit and replaced my HDD. But this wasn't it, I had wait a little more.
-I had to install an OS. I am an arch linux user and previously had windows 8 on dualboot. This time I decided windows wasn't worth the
+I had to install an OS. I am an arch Linux user and previously had windows 8 on dualboot. This time I decided windows wasn't worth the
 precious space on my SSD (250 GB). Also this time I decided to switch to UEFI as it supposedly gives better boot speeds.
-The first challenge was booting the arch's live usb in UEFI mode, it kept saying "failed to override security policy". Turns out my laptop's UEFI implementation doesn't support secure boot, which I found out after searching around.
+The first challenge was booting the arch's live USB in UEFI mode, it kept saying "failed to override security policy". Turns out my laptop's UEFI implementation doesn't support secure boot, which I found out after searching around.
 
 The fix was simply: replacing bootx64.efi with loader.efi in the installation media.
 
 Decided to use gummiboot as my bootloader this time, as grub2 seemed a bit overkill for my needs, finally when everything was set up.
-Rebooted and then 'holy shit' boot was insanely fast ~10 seconds to fully responsive kde plasma5 session, not the login screen the actual
-desktop! Goodbye suspending the laptop. The screenshot at the begining shows the boot time using systemd-analyze 7.553s, pretty impressive! Everything is snappy, chrome launches instantly from a cold start (previously took ages), other applications too launch instantly. I am pretty satisfied with the SSD's performance.
+Rebooted and then 'holy shit' boot was insanely fast ~10 seconds to fully responsive KDE plasma5 session, not the login screen the actual
+desktop! Goodbye suspending the laptop. The screenshot at the begging shows the boot time using systemd-analyze 7.553s, pretty impressive! Everything is snappy, chrome launches instantly from a cold start (previously took ages), other applications too launch instantly. I am pretty satisfied with the SSD's performance.
 
 
 The obligatory r/w performance benchmarks:
 
 Write speed:
-{% highlight bash %}
+{% highlight shell-session %}
 [pinak@asus_arch ~]$ dd if=/dev/zero of=tempfile bs=1M count=1024 conv=fdatasync,notrunc
 1024+0 records in
 1024+0 records out
@@ -38,7 +38,7 @@ Write speed:
 
 
 Read speed:
-{% highlight bash %}
+{% highlight shell-session %}
 [root@asus_arch pinak]# echo 3 > /proc/sys/vm/drop_caches
 [root@asus_arch pinak]# exit
 [pinak@asus_arch ~]$ dd if=tempfile of=/dev/null bs=1M count=1024
