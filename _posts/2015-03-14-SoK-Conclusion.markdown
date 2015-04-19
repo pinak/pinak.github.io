@@ -1,6 +1,6 @@
 ---
 layout: post
-Title: "SoK conclusion"
+title: "SoK conclusion"
 categories: kde sok
 ---
 My SoK journey has come to an end. It was the best learning experience ever. As the say no better way to learn than to get your hands dirty. My project, even though it was more oriented towards research, gave me hands on experience with Baloo's codebase. Looking for a better alternative to Xapian, which is after all a core part of Baloo, is no small task.

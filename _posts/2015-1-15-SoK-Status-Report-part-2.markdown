@@ -1,6 +1,6 @@
 ---
 layout: post
-Title: "SoK Status Report part-2"
+title: "SoK Status Report part-2"
 categories: kde sok
 ---
 Been a while since my last post. Exams came in and threw my momentum off. But now I'm back on track.

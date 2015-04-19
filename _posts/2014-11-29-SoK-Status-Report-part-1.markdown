@@ -1,6 +1,6 @@
 ---
 layout: post
-Title: "SoK Status Report part-1"
+title: "SoK Status Report part-1"
 categories: kde sok
 ---
 As mentioned in my previous post I'd be writing about my journey through SoK in
