@@ -1,0 +1,40 @@
+---
+layout: post
+title: conf.kde.in '15 - The Initiation
+categories: kde conference conf.kde.in talk
+image: /assets/article_images/cki15/campus.jpg
+---
+
+So I finally have something blog worthy after a long time or at least writing this post will be a decent way to make it through the last 5 hours of journey back from Kerala. I feel a bit of context is required here, a while back I had submitted a talk proposal for conf.kde.in 2015, which, to my delight, was accepted. This years conference was held at Amritapuri, thanks to the insane amounts of effort put in by the FOSS club at Amrita Vishwa Vidyapeetham University, it went on smoothly. A special shout out to [R.Harish Navnit](https://harishnavnit.wordpress.com/author/harishnavnit). This was my first KDE conference and I must say it was amazing. I met awesome KDE India people, learnt a lot from the other talks and most importantly made new friends who love KDE.
+
+I finally met Pradeepto Bhattacharya, the founder of KDE India, talked a lot about KDE and random stuff.
+
+Enough small talk talk a bit about the conference now. The conference opened with our keynote speaker Noufal Ibrahim, Founder of PyCon India, giving a demo of combining command line utilities to create a summary of Moby Dick from the book. Straight to demonstrations no boring stuff, that's how we roll. Looking for clues like good old
+<center>![Sherlock Holmes](/assets/article_images/cki15/sherlock.gif)</center>
+
+Noufal, even though not a KDE user, did an amazing job of showing how powerful, small & reusable utilities can be, when combined creatively.
+
+<center>![Pradeepto and Shantanu](/assets/article_images/cki15/pradeepto.jpg) </center>
+
+Then Pradeepto and Shantanu took the stage to tell the students about what KDE is, being involved with KDE for ages now, these guys are obviously the best people for the job. They demonstrated lots of KDE software, told the students about the KDE community and motivated them to contribute. This was followed by Somsubhra's talk on Krita in which he demonstrated it's power with the help of tons of videos.
+
+Then after a short break for lunch came the moment I'd been simultaneously dreading and looking forward to, my talk. As I already stated, this was my first conf.kde.in, it was also my first talk at such huge event. I was pretty anxious about it, but encouragement from the other the speakers specially Devaja Shah helped me calm my nerves, and I went on to give a decent talk which I hope motivated the students there to contribute to KDE. In my talk I shared my experience with the KDE community, told the students about my SoK project with Baloo, getting started with code contributions complete with demos of IRC, fetching, building, changing code and generating and submiting patches. One major aspect of my talk was to get the students to start using KDE and improving what they feel needs improving, scratching their own itch.
+<center>![me!](/assets/article_images/cki15/pinak.jpg) </center>
+
+
+My talk, was followed by a hands on session by Shantanu for QML. It was amazing to see students reading around the documentation and experimenting to do stuff they wanted to. He started with basics and ended with animations. I have to say Shantanu is a good teacher, even I learnt a couple of things from the session. The first day concluded with students interacting with the speakers asking their queries.
+
+Sadly I missed pre-lunch talks the second day as I was helping out Shantanu in hands on QML sessions for students who'd missed the opportunity on the first day. After lunch, Devaja Shah took the students on a journey through the KDE galaxy giving a tour of lot of planets (read KDE projects).This followed by her presenting other ways of contributing to KDE apart from coding. This included participating in the Promo team, writing dot stories and helping in localization of KDE software.
+
+The last two talks were by Ashish Madeti who gave impressive demo's of his GSoC project with PMC, by playing some awesome music on Plasma Media center using MPRIS and Karan Luthra who gave an amazing presentation on Trojitá the IMAP e-mail client. His talk helped the students in understanding concepts of IMAP, what Trojitá exactly is and how they can contribute to it. All in all it was an amazing experience with enthusiastic students eager to learn new things. I hope we get tons of new contributers.
+
+Now to the fun part, exploring Amritapuri. After the conference we went on to watch the sunset from 18th floor of a building along the coast. Amazing thing to witness.
+<center>![Group photo](/assets/article_images/cki15/group.jpg) </center>
+
+
+A few photographs I took:
+------------------------
+Amritapuri is a beautiful place situated along the western coastline of India. Finally saw the renowned Kerala backwaters from a bird's eye view.
+
+<center>![Sunset](/assets/article_images/cki15/sunset.jpg) </center>
+<center>![Backwaters](/assets/article_images/cki15/backwaters.jpg) </center>
