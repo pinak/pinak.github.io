@@ -1,6 +1,8 @@
 # Build settings
 markdown: redcarpet
 highlighter: pygments
+gems:
+  - jemoji
 
 # Site settings
 title: "Blog"
