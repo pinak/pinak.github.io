@@ -43,9 +43,10 @@ gets stuck we check the last ID written by the extractor, blacklist the ID
 The first part i.e. sending files over stdin has been done, the second part i.e.
 error handling and logging needs a bit more testing.
 
-As always my mentor Vishesh Handa has been a great help, to me whenever I got stuck.
-I got stuck mainly because I was making lots of huge untested changes without actually
-planning the design properly which caused errors that were hard to trace.
+As always my mentor Vishesh Handa has been a great help whenever I got stuck.
+I got stuck mainly, as pointed out by my mentor, because I was making lots of
+huge untested changes without actually planning the design properly which caused
+errors that were hard to trace.
 Lessons learnt:
 * Always keep testability in mind when designing new stuff.
 * Always try to make small changes and test them.
