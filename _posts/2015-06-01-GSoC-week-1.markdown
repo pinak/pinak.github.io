@@ -1,0 +1,51 @@
+---
+layout: post
+title: GSoC 2015 Week - 1
+categories: kde gsoc baloo
+---
+
+As I mentioned before my GSoC proposal titled **Better Tooling for Baloo** has
+been accepted.
+
+For the uninitiated, The Google Summer of Code (GSoC) is an international
+annual program in which Google awards stipends to all students who successfully
+complete a requested free and open-source software coding project during the
+summer. (Straight from Wikipedia because I'm lazy)
+
+So, one week has passed since the official coding period began, and I've been
+working on laying the foundation for my project. To begin my project I have
+re-factored *baloo\_file\_extractor*.
+
+Previous behaviour:
+==================
+* Start a KJob with a batch of documents, which started the extractor using QProcess
+giving all of the file ID's as arguments when starting the QProcess.
+* If the extractor ran for more than a fixed amount of time we would assume it is
+stuck (happens with some files we have trouble processing, though rarely) and
+proceed by killing it, and restarting it with half the ID's (keeping the other half
+for later processing), this was repeated
+till the we narrow down the file which caused it to get stuck (sort of a binary search)
+* Repeat the process for every batch of ID's.
+
+Problems with the approach:
+----------------------------
+* This approach required us to restart the extractor for every batch of ID's, which was
+quite frequent.
+* Narrowing down the file causing erratic behavior, was very tricky.
+
+New behaviour:
+=============
+* We start a persistent extractor process and give it ID's via stdin.
+* The extractor writes to stdout the ID it has started indexing and in case the extractor
+gets stuck we check the last ID written by the extractor, blacklist the ID
+(also log it somewhere) remove from the batch and resend the batch.
+
+The first part i.e. sending files over stdin has been done, the second part i.e.
+error handling and logging needs a bit more testing.
+
+As always my mentor Vishesh Handa has been a great help, to me whenever I got stuck.
+I got stuck mainly because I was making lots of huge untested changes without actually
+planning the design properly which caused errors that were hard to trace.
+Lessons learnt:
+* Always keep testability in mind when designing new stuff.
+* Always try to make small changes and test them.
