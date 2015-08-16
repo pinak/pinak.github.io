@@ -1,0 +1,33 @@
+---
+layout: post
+title: Akademy 2015
+categories: kde akademy conference
+image: /assets/article_images/akademy/coruna.jpg
+---
+So, I had the opportunity to attend my first Akademy this year :). For those who don't know what Akademy is here is a short description:
+It is the annual world summit of KDE. It includes a 2 day conference in which contributers present the latest developments regarding KDE,
+followed by 5 days of workshops and sessions in which intrested people hold discussions regarding various KDE projects.
+
+What probably comes to your mind after reading the word contributers is developers, but that is just part of the story. The kde community
+is made of way more than that. I met artists, designers, translators and lots of other people as well at Akademy. This years Akademy was held
+at A Coruña, Galicia, Spain.
+
+As I mentioned this was my first Akademy or for that matter my first international FOSS conference, I was pretty damn excited to go, after attending
+Akademy I must say that my excitement was justified.
+
+So what is so special about Akademy? There are countless things which make it an amazing experience, at the top of the list is: finally getting to meet the
+people who were just IRC nicks till now.I finally met my GSoC mentor Vishesh Handa with whom I've been working for about a year now. When so many like
+minded, awesome and dedicated people get together there's loads of stuff happening everywhere and plenty of new stuff to learn.
+
+The First two days had talks related to various parts of KDE the highlight being the announcement of Plasma Mobile, KDE's attempt at an open platform for mobile
+which is capable of running full fledged Qt applications and in the future will run android applications as well.
+
+I gave a lightning talk about my GSoC project which I've been working on for the past couple of months.
+<center>![Me at my Akademy 2015](/assets/article_images/akademy/me.jpg) </center>
+
+The remaining days were followed by workshops, and diverse BoF's planning a vision for KDE, VDG sessions to help people improve the design for their applications,
+Plasma mobile and loads more.
+
+Akademy 2015 was the best week I've spent till now. A big thanks to KDE E.v. for sponsoring me :)
+
+<center>![](/assets/article_images/akademy/akademy.png)</center>
