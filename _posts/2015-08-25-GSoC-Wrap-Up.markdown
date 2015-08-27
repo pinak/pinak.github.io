@@ -81,3 +81,11 @@ implementation. I am going to continue working with KDE for the foreseeable futu
 Thank you KDE and Google for giving me the chance, and a big thanksto my mentor
 Vishesh Handa for dealing with my, sometimes sloppy, code patiently and poniting out
 ways to improve.
+
+Edit: Forgot to mention all my work is in the master branch already as I worked
+in the master branch all along. It was somewhat scary, knowing that your changes
+can break the core functionality but so much fun as well.
+
+Also, a somewhat alpha verison of the monitor is present in the latest version of baloo (5.13)
+with loads of fixes and improvements already in the master branch for the next release.
+Can be launched from the command line using "baloo-monitor".
